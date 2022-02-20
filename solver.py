@@ -6,8 +6,7 @@ from utils import Node, parse_config
 
 if __name__=="__main__":
     
-    
-    # src = [[8, 3, 5], [4, 1, 6], [2, 7, 0]]
+
     config_path = "input_config.json"
 
     test_cases = parse_config(config_path)
@@ -22,7 +21,7 @@ if __name__=="__main__":
         NodesInfo_file = open(os.path.join(directory, "NodesInfo.txt"), 'w')
         NodesInfo_file.write("Node_index   Parent_Node_index   Cost"+ "\n")
         src = tc[0]
-        # goal = [[1, 2, 3], [8, 0, 4], [7, 6, 5]]
+
         goal = tc[1]
         
         start_node = Node(src, None, None, 0)
