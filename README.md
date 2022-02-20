@@ -40,7 +40,9 @@ The file can been pre-configured with two existing test cases:
 	"g_4": []
 	}
 Here `i_1` and `g_1`refers to initial state and the goal state of the first test case and so on for all four test cases.
-The solver program can automatically parse the json for valid sets of test cases. **For each test case, it generates a folder named "TEST_CASE_<test_case_number>"  which contains all the required .txt files and a copy of the `plot_path.py`**
+The solver program can automatically parse the json for valid sets of test cases. 
+
+**For each test case, it generates a folder named "TEST_CASE_<test_case_number>"  which contains all the required .txt files and a copy of the `plot_path.py`**
 
 **Note: The solver will only be able to parse test cases in the above given format.**
 ## Steps to run the program
@@ -53,4 +55,4 @@ To run `plot_path.py` for each test case, run the following commands:
     cd ./TEST_CASE_<test_case_number>
     python3 plot_path.py
 
-The `utils.py` contains the python implementation of a Node class and other helper functions which are consumed by `solver.py`
+The `utils.py` contains the python implementation of a Node class and other helper functions which are consumed by `solver.py`.
