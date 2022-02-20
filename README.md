@@ -50,7 +50,7 @@ The solver program can automatically parse the json for valid sets of test cases
 After successful configuration of the JSON file, run the following command to generate the results:
 
     python3 solver.py
-To run `plot_path.py` for each test case, run the following commands:
+To visualize each solution, run `plot_path.py` for each test case by entering the following commands:
 
     cd ./TEST_CASE_<test_case_number>
     python3 plot_path.py
